@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminateTint="@color/black"
+        android:padding="180dp"
+        android:progress="10"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textview_input_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/esamanrulight"
+        android:textSize="25sp"
+
+        android:text="Badge Collection"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview_badges"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/containers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/esamanrulight"
+                android:id="@+id/textview_input_titl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="나의 여행지도"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:alpha="0.6"
+                android:src="@drawable/mapp" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/so_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/ic_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/gd_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+
+                    android:visibility="gone"
+                    android:id="@+id/go_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/cb_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+               android:layout_marginBottom="30dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/dj_tree"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/cn_tree"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/tree1" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/jj_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/jn_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/gj_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/jb_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/gb_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/gn_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/bs_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/us_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/dg_tree"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tree1" />
+            </FrameLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textview_input_titㅇl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/esamanrulight"
+                android:text="나의 여행기록"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerview_pictures"/>
+
+            </LinearLayout
+                >
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

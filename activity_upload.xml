@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    tools:context=".uplodaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/esamanrulight"
+
+                    android:text="UpLoad"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                  />
+
+                <HorizontalScrollView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fadeScrollbars="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+>
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+
+
+
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@color/white"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="6dp"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+
+                            android:id="@+id/imageview_picture"
+                            android:layout_width="35dp"
+                            android:layout_height="40dp"
+
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/image_plus" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+                    <RelativeLayout
+
+                        android:id="@+id/second"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+
+
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@color/white"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="6dp"
+                            app:cardUseCompatPadding="true">
+
+                            <ImageView
+
+                                android:id="@+id/imageview_picture2"
+                                android:layout_width="35dp"
+                                android:layout_height="40dp"
+
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image_plus" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+
+                        android:id="@+id/third"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+
+
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@color/white"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="6dp"
+                            app:cardUseCompatPadding="true">
+
+                            <ImageView
+
+                                android:id="@+id/imageview_picture3"
+                                android:layout_width="35dp"
+                                android:layout_height="40dp"
+
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image_plus" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+
+                        android:id="@+id/fourth"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+
+
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@color/white"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="6dp"
+                            app:cardUseCompatPadding="true">
+
+                            <ImageView
+
+                                android:id="@+id/imageview_picture4"
+                                android:layout_width="35dp"
+                                android:layout_height="40dp"
+
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image_plus" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/map"/>
+
+                    <TextView
+                        android:id="@+id/edittext_input_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="19sp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:hint="지역를 선택해주세요."
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/location"/>
+
+                    <EditText
+                        android:id="@+id/edittext_input_location2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:hint="이곳은 어디인가요?"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/date"/>
+                    <EditText
+                        android:id="@+id/edittext_input_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:layout_marginLeft="10dp"
+                        android:hint="날짜를 입력해주세요 ex)2021.12.15"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/img"/>
+
+                    <Switch
+                        android:id="@+id/swit"
+                        android:layout_marginLeft="10dp"
+                        android:thumbTint="@color/purple_200"
+                        android:trackTint="@color/lighttblack"
+
+                        android:text="off/on"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:switchMinWidth="50dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/neo"/>
+
+                    <EditText
+                        android:id="@+id/secret"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:layout_marginLeft="10dp"
+                        android:hint="비밀글"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/oneline"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/smile"/>
+
+                    <EditText
+                        android:id="@+id/feel"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:hint="이곳은 어땟나요? 여행지 한줄 평!"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/recomendlayout"
+                    android:visibility="gone"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/good"/>
+
+                    <EditText
+                        android:id="@+id/recomend"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:hint="이런분들에게 추천해요 !"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_bottom">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/wrting"/>
+
+                    <EditText
+                        android:id="@+id/edittext_input_feel"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_bottom"
+                        android:fontFamily="@font/neo"
+                        android:hint="이번 여행은 어땟나요?"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:padding="2dp"
+                        android:id="@+id/button_upload"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/neo"
+                        android:background="@drawable/border"
+                        android:text="UPLOAD"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <Button
+
+                        android:id="@+id/button_cancle"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/black"
+                        android:fontFamily="@font/neo"
+                        android:textStyle="bold"
+                        android:text="CANCLE"
+                        android:background="@drawable/border"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

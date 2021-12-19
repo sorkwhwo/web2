@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="220dp"
+    android:layout_marginRight="15dp"
+    android:backgroundTint="@color/gray"
+    android:background="@drawable/profile_oval"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="경상북도 - 경주"/>
+
+   <LinearLayout
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <com.makeramen.roundedimageview.RoundedImageView
+           android:layout_marginRight="10dp"
+           app:riv_oval="true"
+           android:background="@drawable/oval"
+           android:layout_marginTop="5dp"
+
+           android:id="@+id/imageview_1"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/busan" />
+       <com.makeramen.roundedimageview.RoundedImageView
+
+           app:riv_oval="true"
+           android:background="@drawable/oval"
+           android:layout_marginTop="5dp"
+
+           android:id="@+id/imageview_2"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/busan" />
+
+   </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+
+            app:riv_oval="true"
+            android:background="@drawable/oval"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageview_3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/busan" />
+        <com.makeramen.roundedimageview.RoundedImageView
+            app:riv_oval="true"
+            android:background="@drawable/oval"
+
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/imageview_4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/busan" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:text="2014.05.14"/>
+
+
+</LinearLayout>
+
+

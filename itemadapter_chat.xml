@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@+id/loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:indeterminateTint="@color/black"
+        android:paddingLeft="180dp"
+        android:paddingRight="180dp"
+        android:paddingBottom="300dp"
+        android:progress="10"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조재영"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="님의 여행기록"
+
+            android:textColor="@color/black"
+            android:id="@+id/namasdsade"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="경상남도 거창 동굴과 월동"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/place"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/date"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021.01.24"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/date"/>
+
+
+
+    </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="390dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="250dp"
+                    android:src="@drawable/d1"
+                    android:id="@+id/img1"
+                    />
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/img2"
+                    android:layout_width="390dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/d2" />
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/img3"
+                    />
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/img4"
+                    />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/onelinelayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/border_bottom"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/smile"
+            />
+
+        <TextView
+            android:id="@+id/oneline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="산책하기 좋아요"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/recomendlayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/border_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/good"
+            />
+
+        <TextView
+            android:id="@+id/recomend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="맛집"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:background="@drawable/border_bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/wrting"
+            />
+
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/feel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="여기 완전 좋아요~"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+</LinearLayout>
